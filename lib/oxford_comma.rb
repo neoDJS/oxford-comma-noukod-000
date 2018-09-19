@@ -12,6 +12,7 @@ def oxford_comma(array)
       str += array[2*i, 2*i+1].join(", ")
     end
   end
+  puts str
   str
 end
 

@@ -12,7 +12,7 @@ def oxford_comma(array)
           puts "yeah"
           str += "#{array[2*i..2*i+1].join(", and ")}"
         else
-            puts "oh nnnnnnnnnnnnnnnn"
+            puts "oh nnnnnnnnnnnnnnnn #{n}  #{2*i+1}"
           str += "#{array[2*i..2*i+1].join(", ")}"
         end
       end

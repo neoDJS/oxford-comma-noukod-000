@@ -6,7 +6,6 @@ def oxford_comma(array)
   elsif n > 2
       str += ", and #{array.last}"
   end
-  puts str
   str
 end
 

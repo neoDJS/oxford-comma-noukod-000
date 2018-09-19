@@ -7,6 +7,7 @@ def oxford_comma(array)
     else
       (n/2).times do |i|
         if (n == 2)
+          puts "heoooooooo"
           str += "#{array[2*i, 2*i+1].join(" and ")}"
         elsif (2*i+1 == n-1)
           str += "#{array[2*i, 2*i+1].join(", and ")}"

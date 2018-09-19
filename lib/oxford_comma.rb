@@ -1,9 +1,9 @@
 def oxford_comma(array)
   n = array.length
   str = ""
-  
+
     if n==1
-      str += array[i]
+      str += array[0]
     else
       (n/2).times do |i|
         if (n == 2)
